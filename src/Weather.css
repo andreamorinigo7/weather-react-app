@@ -29,7 +29,7 @@ img {
   display: block;
   margin: 0 auto;
   position: relative;
-  bottom: -60px;
+  bottom: -80px;
   width: 135px;
   height: 135px;
 }
@@ -75,4 +75,10 @@ h3 {
   border-radius: 20px;
   margin-top: 35px;
   padding-left: 30px;
+}
+
+h4 {
+  color: #fff;
+  margin: 30px;
+  padding: 80px;
 }
