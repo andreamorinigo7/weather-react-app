@@ -1,10 +1,28 @@
 .Weather {
-  padding: 40px;
-  margin: 30px auto;
+  padding: 60px 40px;
+  margin: auto;
   max-width: 800px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
+  background-color: #0a121e;
+}
+
+input {
+  background-color: #202c3d;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  color: #818791;
+  border-radius: 6px;
+}
+
+.search-input {
+  width: 600px;
+}
+
+.submit-input {
+  width: 100px;
 }
 
 img {
@@ -19,6 +37,7 @@ img {
 h1 {
   padding: 35px 35px 0;
   font-size: 48px;
+  color: #fff;
 }
 .weather-heading {
   text-align: center;
@@ -27,12 +46,14 @@ h1 {
 .weather-heading p {
   margin: 0;
   padding: 0;
+  color: #a0a7b0;
 }
 
 h2 {
   padding-top: 22px;
   font-size: 66px;
   font-weight: 600;
+  color: #fff;
 }
 
 h2 span {
@@ -40,4 +61,18 @@ h2 span {
   font-weight: 300;
   position: relative;
   top: -30px;
+}
+p {
+  color: #a0a7b0;
+}
+h3 {
+  color: #fff;
+}
+
+.weather-description {
+  background: #202c3d;
+  padding: 14px 22px;
+  border-radius: 20px;
+  margin-top: 35px;
+  padding-left: 30px;
 }
