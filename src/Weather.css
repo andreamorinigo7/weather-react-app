@@ -56,12 +56,15 @@ h2 {
   color: #fff;
 }
 
-h2 span {
+.unit {
   font-size: 20px;
   font-weight: 300;
   position: relative;
-  top: -30px;
+  top: -75px;
+  left: 90px;
+  color: #fff;
 }
+
 p {
   color: #a0a7b0;
 }
