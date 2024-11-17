@@ -1,16 +1,14 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
+import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <div className="row">
         <div className="col-6 ">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="weather icon"
-          />
+          <WeatherIcon code={props.data.icon} alt={props.data.description} />
         </div>
 
         <div className="col-6 weather-heading">
