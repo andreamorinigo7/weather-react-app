@@ -2,7 +2,6 @@ import React from "react";
 import { WeatherSvg } from "weather-icons-animated";
 
 export default function WeatherIcon(props) {
-  console.log(props.code);
   const codeMapping = {
     "01d": "sunny",
     "01n": "clear-night",
