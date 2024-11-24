@@ -1,7 +1,7 @@
 .Weather {
   padding: 60px 40px;
   margin: auto;
-  max-width: 800px;
+  max-width: 1200px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -19,10 +19,6 @@ input {
 
 .search-input {
   width: 600px;
-}
-
-.submit-input {
-  width: 100px;
 }
 
 svg {
@@ -76,7 +72,7 @@ h3 {
   background: #202c3d;
   padding: 14px 22px;
   border-radius: 20px;
-  margin-top: 35px;
+  margin-top: 45px;
   padding-left: 30px;
 }
 

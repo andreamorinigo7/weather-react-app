@@ -6,7 +6,7 @@ import WeatherIcon from "./WeatherIcon";
 export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
-      <div className="row">
+      <div className="row mt-5">
         <div className="col-6 ">
           <WeatherIcon code={props.data.icon} alt={props.data.description} />
         </div>
