@@ -1,5 +1,4 @@
 import React from "react";
-import WeatherIcon from "./WeatherIcon";
 
 export default function WeatherForecastDay(props) {
   function maxTemperature() {
@@ -25,7 +24,10 @@ export default function WeatherForecastDay(props) {
     <div>
       <div className="WeatherForecast-dailyBox">
         <div className="WeatherForecast-icon img-fluid">
-          <img src={props.data.condition.icon_url} />
+          <img
+            src={props.data.condition.icon_url}
+            alt="Weather Forecast icon"
+          />
         </div>
 
         <div className="WeatherForecast-temperatures">
